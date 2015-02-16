@@ -1,14 +1,14 @@
 <?php
 /**
  * @package The_Dude
- * @version 1.0
+ * @version 0.1
  */
 /*
 Plugin Name: The Dude
 Plugin URI:
 Description: That, or His Dudeness… Duder… or El Duderino, if, you know, you're not into the whole brevity thing.
 Author: Kostas Vrouvas
-Version: 1.6
+Version: 0.1
 Author URI: http://kosvrouvas.com/
 */
 
