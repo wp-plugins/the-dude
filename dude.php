@@ -1,14 +1,14 @@
 <?php
 /**
  * @package The_Dude
- * @version 0.1
+ * @version 0.2
  */
 /*
 Plugin Name: The Dude
 Plugin URI:
 Description: That, or His Dudeness… Duder… or El Duderino, if, you know, you're not into the whole brevity thing.
 Author: Kostas Vrouvas
-Version: 0.1
+Version: 0.2
 Author URI: http://kosvrouvas.com/
 */
 
@@ -39,10 +39,16 @@ Also, my rug was stolen.
 I don't see any connection to Vietnam, Walter.
 And, you know, he's got emotional problems, man.
 Jesus, man, could you change the channel?
-Yeah,well, that's just, like, your opinion, man.
+Yeah, well, that's just, like, your opinion, man.
 She probably kidnapped herself.
 You human paraquat!
-Nice marmont.";
+Nice marmont.
+Do you see a wedding ring on my finger? Does this place look like I'm fucking married? The toilet seat's up, man!
+You brought a fucking Pomeranian bowling?
+I want a fucking lawyer, man. I want Bill Kunstler, or Ron Kuby.
+That's fucking interesting, man. That's fucking interesting.
+Where's the fucking money, you little brat?
+Jesus.";
 
 	// Here we split it into lines
 	$lyrics = explode( "\n", $lyrics );
@@ -80,4 +86,10 @@ function dude_css() {
 
 add_action( 'admin_head', 'dude_css' );
 
+// Replace welcome message
+function the_dude_welcome($translated_text, $text, $domain) {  
+    $new_message = str_replace('Howdy', 'His Dudeness', $text);  
+    return $new_message;  
+}  
+add_filter('gettext', 'the_dude_welcome', 10, 3);
 ?>
