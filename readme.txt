@@ -1,5 +1,6 @@
 === The Dude ===
 Contributors: kosvrouvas
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8DH2U6LZZZLBL
 Tags: hello, admin area, humor, the dude, his dudeness, el duderino, fun
 Requires at least: 3.0
 Stable tag: 0.2
