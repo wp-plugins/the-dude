@@ -16,7 +16,7 @@ That, or His Dudeness… Duder… or El Duderino, if, you know, you're not into 
 
 When activated you will randomly see a quote from "The Big Lebowski" in the upper right of your admin screen on every page, h/t to Matt Mullenberg for the original code.
 
-Surprizingly featured in <a href="http://wptavern.com/the-dude-a-fun-alternative-to-hello-dolly" target="_blank">WPTavern.com</a>
+Surprisingly featured in <a href="http://wptavern.com/the-dude-a-fun-alternative-to-hello-dolly" target="_blank">WPTavern.com</a>
 == Changelog ==
 
 = 0.2 =
